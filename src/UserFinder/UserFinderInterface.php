@@ -1,5 +1,5 @@
 <?php
-namespace Panadas\AuthManager\UserFinder;
+namespace Panadas\AuthModule\UserFinder;
 
 interface UserFinderInterface
 {

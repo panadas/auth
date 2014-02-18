@@ -1,5 +1,5 @@
 <?php
-namespace Panadas\AuthManager\User;
+namespace Panadas\AuthModule\User;
 
 interface UserInterface
 {

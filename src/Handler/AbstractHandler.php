@@ -1,7 +1,7 @@
 <?php
-namespace Panadas\AuthManager\Handler;
+namespace Panadas\AuthModule\Handler;
 
-use Panadas\AuthManager\User\UserInterface;
+use Panadas\AuthModule\User\UserInterface;
 use Panadas\Util\String;
 
 abstract class AbstractHandler implements HandlerInterface
