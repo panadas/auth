@@ -1,5 +1,5 @@
 {
-    "name": "panadas/module-auth",
+    "name": "panadas/auth",
     "description": "User authentication library.",
     "license": "MIT",
     "type": "library",
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "panadas/module-http-message": "~1.0",
+        "panadas/http-message": "~1.0",
         "panadas/util": "~1.0"
     },
     "require-dev": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Panadas\\AuthModule\\": "src/"
+            "Panadas\\Auth\\": "src/"
         }
     },
     "minimum-stability": "dev",

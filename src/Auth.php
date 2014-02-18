@@ -1,11 +1,11 @@
 <?php
-namespace Panadas\AuthModule;
+namespace Panadas\Auth;
 
-use Panadas\AuthModule\Handler\HandlerInterface;
-use Panadas\AuthModule\UserFinder\UserFinderInterface;
-use Panadas\HttpMessageModule\Cookie;
-use Panadas\HttpMessageModule\Request;
-use Panadas\HttpMessageModule\Response;
+use Panadas\Auth\Handler\HandlerInterface;
+use Panadas\Auth\UserFinder\UserFinderInterface;
+use Panadas\HttpMessage\Cookie;
+use Panadas\HttpMessage\Request;
+use Panadas\HttpMessage\Response;
 
 class Auth
 {

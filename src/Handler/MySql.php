@@ -1,7 +1,7 @@
 <?php
-namespace Panadas\AuthModule\Handler;
+namespace Panadas\Auth\Handler;
 
-use Panadas\AuthModule\User\UserInterface;
+use Panadas\Auth\User\UserInterface;
 
 class MySql extends AbstractPdo
 {

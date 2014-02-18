@@ -1,5 +1,5 @@
 <?php
-namespace Panadas\AuthModule\Handler;
+namespace Panadas\Auth\Handler;
 
 abstract class AbstractPdo extends AbstractHandler
 {
